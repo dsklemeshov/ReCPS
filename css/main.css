@@ -64,8 +64,8 @@ Home page block - start
 *******************************************************/
 
 #home .container {
-  padding-top: 60px;
-  height: 92%;
+  padding-top: 66px;
+  height: 93%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto 100px;
@@ -129,7 +129,7 @@ Blog page block - start
 
 #blog .container {
   padding-top: 66px;
-  height: 91%;
+  height: 93%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 30px auto 100px;
@@ -183,39 +183,47 @@ Blog page block - start
 }
 
 #blog .content-article-likes-link img:hover {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
-  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
-  box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+  box-shadow: 0px 0px 30px 0px  #7e7979;
 }
 #blog .content-article-dislikes-link {
   margin-left: 10px;
 }
 #blog .content-article-dislikes-link img:hover {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
-  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
-  box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+  box-shadow: 0px 0px 30px 0px  #7e7979;
 }
 #blog .content-article-share-link {
   margin-left: 10px;
 }
 
 #blog .content-article-share-link img:hover {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
-  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
-  box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+  box-shadow: 0px 0px 30px 0px  #7e7979;
 }
 
 #blog .content-article-links > div:nth-child(4) {
   margin-left: auto;
+}
+
+#blog .content-article-tags {
+  display: flex;
+  margin-left: auto;
+  color: black;
+}
+
+#blog .content-article-tags img {
+  margin-left: auto;
+  height: 24px;
+  width: 24px;
+}
+
+#blog .content-article-tags-link {
+  color: black;
+}
+
+#blog .content-article-comment-link {
+  color: black;
 }
 
 #blog .datetime {
@@ -238,7 +246,7 @@ About page block - start
 
 #about .container {
   padding-top: 66px;
-  height: 91%;
+  height: 93%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 30px auto 100px;
