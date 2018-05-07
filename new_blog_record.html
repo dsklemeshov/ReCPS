@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta lang="ru">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>New blog record</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+
+</head>
+
+<body id="NBR">
+    <div class="container">
+        <div class="body-header">
+            <div class="header-buttons">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="header-buttons">
+                <a href="blog.html">Blog</a>
+            </div>
+            <div class="header-buttons">
+                <a href="forum.html">Forum</a>
+            </div>
+            <div class="header-buttons">
+                <a href="gallery.html">Gallery</a>
+            </div>
+            <div class="header-buttons">
+                <a href="#">About us</a>
+            </div>
+            <div class="header-buttons">Search</div>
+        </div>
+        <div class="top-text">
+            <h2>New blog's record</h2>
+        </div>
+        <section class="content-content">
+            <form class="content-content-form" action="#" method="POST">
+                <label class="content-content-form-SetDate" for="Dt">Set date:
+                    <input id="Dt" name="Dt" type="date" title="Set date" alt="Set date" required>
+                </label>
+                <label class="content-content-form-Header" for="RecordHeader">Header:
+                    <input name="RecordHeader" type="text" title="Set header" alt="Set header" required>
+                </label>
+                <textarea class="content-content-form-body" title="Set body" alt="Set body" required></textarea>
+                <input class="content-content-form-button" type="submit" title="send" value="Send" alt="send" >
+            </form>
+        </section>
+
+        <div class="content-footer">Footer</div>
+    </div>
+    <script>
+        document.getElementById('Dt').valueAsDate = new Date();
+    </script>
+</body>
+
+</html>

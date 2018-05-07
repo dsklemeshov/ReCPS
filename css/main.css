@@ -4,55 +4,55 @@ Main block - start
 
 html,
 body {
-  box-sizing: border-box;
-  height: 100%;
-  margin: 0px;
-  background: #eaeaea;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0px;
+    background: #eaeaea;
 }
 
 .body-header {
-  width: 100%;
-  position: fixed;
-  top: 0px;
-  display: flex;
-  border-bottom: 1px solid black;
-  background: white;
-  align-items: center;
-  padding-left: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    border-bottom: 1px solid black;
+    background: white;
+    align-items: center;
+    padding-left: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .body-header .header-buttons {
-  width: 6em;
-  height: 40px;
-  align-items: center;
-  padding-top: 25px;
+    width: 6em;
+    height: 40px;
+    align-items: center;
+    padding-top: 25px;
 }
 
-.body-header > div:nth-child(6) {
-  margin-left: auto;
+.body-header>div:nth-child(6) {
+    margin-left: auto;
 }
 
 .content-aside img {
-  width: 100%;
+    width: 100%;
 }
 
 h2 {
-  padding: 0px;
-  margin: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 h3 {
-  font-family: "Alegreya Sans", sans-serif;
+    font-family: "Alegreya Sans", sans-serif;
 }
 
 article {
-  font-family: "Alegreya Sans", sans-serif;
+    font-family: "Alegreya Sans", sans-serif;
 }
 
 .datetime {
-  font-family: "Alegreya Sans", sans-serif;
-  font-style: italic;
+    font-family: "Alegreya Sans", sans-serif;
+    font-style: italic;
 }
 
 /*******************************************************
@@ -64,61 +64,62 @@ Home page block - start
 *******************************************************/
 
 #home .container {
-  padding-top: 66px;
-  height: 93%;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: auto 100px;
-  grid-gap: 5px;
-  grid-auto-flow: row;
+    padding-top: 66px;
+    height: 93%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto 100px;
+    grid-gap: 5px;
+    grid-auto-flow: row;
 }
 
 #home .content-menu {
-  grid-column: 1 / 3;
-  background: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  /* Параметры тени */
-  padding: 10px;
-  margin: 10px;
+    grid-column: 1 / 3;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Параметры тени */
+    padding: 10px;
+    margin: 10px;
 }
 
 #home .content-content {
-  grid-column: 4 / 10;
-  background: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  /* Параметры тени */
-  padding: 10px;
-  margin: 10px;
+    grid-column: 4 / 10;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Параметры тени */
+    padding: 10px;
+    margin: 10px;
 }
 
 #home .content-aside {
-  grid-column: 11 / -1;
-  background: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  /* Параметры тени */
-  padding: 10px;
-  margin: 10px;
+    grid-column: 11 / -1;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Параметры тени */
+    padding: 10px;
+    margin: 10px;
 }
 
 #home .content-content-recipe {
-  display: grid;
-  grid-template-columns: 150px auto;
-  grid-template-rows: auto;
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: auto;
 }
 
 #home .content-content-recipe-image {
-  grid-column: 1 /1;
+    grid-column: 1 /1;
 }
 
 #home .content-content-recipe-image img {
-  width: 150px;
-  border-radius: 50%;
+    width: 150px;
+    border-radius: 50%;
 }
 
 #home .content-content-recipe-text {
-  grid-column: 2 /-1;
-  padding-left: 10px;
+    grid-column: 2 /-1;
+    padding-left: 10px;
 }
+
 /*******************************************************
 Home page block - end
 *******************************************************/
@@ -128,112 +129,119 @@ Blog page block - start
 *******************************************************/
 
 #blog .container {
-  padding-top: 66px;
-  height: 93%;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 30px auto 100px;
-  grid-gap: 5px;
-  grid-auto-flow: row;
+    padding-top: 66px;
+    height: 93%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 30px auto 100px;
+    grid-gap: 5px;
+    grid-auto-flow: row;
+}
+
+#blog .content-blog-new-record {
+    margin-left: 96%;
 }
 
 .top-text {
-  grid-column: span 12;
-  justify-self: center;
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  height: 30px;
+    grid-column: span 12;
+    justify-self: center;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    height: 30px;
 }
 
 #blog .content {
-  grid-column: 3 / 10;
-  display: flex;
-  flex-direction: column;
+    grid-column: 3 / 10;
+    display: flex;
+    flex-direction: column;
 }
 
 #blog .content-aside {
-  grid-column: 10 / -1;
-  display: flex;
-  flex-direction: column;
+    grid-column: 10 / -1;
+    display: flex;
+    flex-direction: column;
 }
 
 .content-aside-content {
-  background: white;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  /* Параметры тени */
-  padding: 10px;
-  margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Параметры тени */
+    padding: 10px;
+    margin: 10px;
 }
 
 #blog .content-article {
-  background: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  /* Параметры тени */
-  padding: 10px;
-  margin: 10px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Параметры тени */
+    padding: 10px;
+    margin: 10px;
 }
 
 #blog .content-article-links {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 #blog .content-article-links img {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 #blog .content-article-likes-link img:hover {
-  border-radius: 10px;
-  box-shadow: 0px 0px 30px 0px  #7e7979;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px #7e7979;
 }
+
 #blog .content-article-dislikes-link {
-  margin-left: 10px;
+    margin-left: 10px;
 }
+
 #blog .content-article-dislikes-link img:hover {
-  border-radius: 10px;
-  box-shadow: 0px 0px 30px 0px  #7e7979;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px #7e7979;
 }
+
 #blog .content-article-share-link {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 #blog .content-article-share-link img:hover {
-  border-radius: 10px;
-  box-shadow: 0px 0px 30px 0px  #7e7979;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px #7e7979;
 }
 
-#blog .content-article-links > div:nth-child(4) {
-  margin-left: auto;
+#blog .content-article-links>div:nth-child(4) {
+    margin-left: auto;
 }
 
 #blog .content-article-tags {
-  display: flex;
-  margin-left: auto;
-  color: black;
+    display: flex;
+    margin-left: auto;
+    color: black;
 }
 
 #blog .content-article-tags img {
-  margin-left: auto;
-  height: 24px;
-  width: 24px;
+    margin-left: auto;
+    height: 24px;
+    width: 24px;
 }
 
 #blog .content-article-tags-link {
-  color: black;
+    color: black;
 }
 
 #blog .content-article-comment-link {
-  color: black;
+    color: black;
 }
 
 #blog .datetime {
-  font-family: "Alegreya Sans", sans-serif;
-  font-style: italic;
-  text-align: right;
+    font-family: "Alegreya Sans", sans-serif;
+    font-style: italic;
+    text-align: right;
 }
 
 .blog-record {
-  text-align: justify;
+    text-align: justify;
 }
 
 /*******************************************************
@@ -245,40 +253,40 @@ About page block - start
 *******************************************************/
 
 #about .container {
-  padding-top: 66px;
-  height: 93%;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 30px auto 100px;
-  grid-gap: 5px;
-  grid-auto-flow: row;
+    padding-top: 66px;
+    height: 93%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 30px auto 100px;
+    grid-gap: 5px;
+    grid-auto-flow: row;
 }
 
-.top-text {
-  grid-column: span 12;
-  justify-self: center;
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  height: 30px;
-  padding: 6px;
+#about .top-text {
+    grid-column: span 12;
+    justify-self: center;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    height: 30px;
+    padding: 6px;
 }
 
 #about .content-content {
-  grid-column: 3 / 11;
-  display: flex;
-  flex-direction: column;
-  background: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  /* Параметры тени */
-  padding: 10px;
-  margin: 10px;
+    grid-column: 3 / 11;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Параметры тени */
+    padding: 10px;
+    margin: 10px;
 }
 
 #about .content-content-article {
-  padding: 10px;
-  margin: 10px;
-  font-family: "Alegreya Sans", sans-serif;
-  font-size: 20px;
-  text-align: justify;
+    padding: 10px;
+    margin: 10px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 20px;
+    text-align: justify;
 }
 
 /*******************************************************
@@ -290,25 +298,25 @@ Footer block - start
 *******************************************************/
 
 .content-footer {
-  grid-column: 1 / -1;
-  background: white;
-  border-top: 1px solid black;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  padding-top: 15px;
-  display: flex;
+    grid-column: 1 / -1;
+    background: white;
+    border-top: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding-top: 15px;
+    display: flex;
 }
 
 .content-footer-contacts {
-  margin: 0px;
-  flex: 1 1 100px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+    margin: 0px;
+    flex: 1 1 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .content-footer-contacts-contact {
-  padding: 0px;
-  margin: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 /*******************************************************
@@ -318,47 +326,116 @@ Footer block - end
 /*******************************************************
 Gallery block - start
 *******************************************************/
+
 #gallery .container {
-  padding-top: 66px;
-  height: 91%;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: auto 100px;
-  grid-gap: 5px;
-  grid-auto-flow: row;
+    padding-top: 66px;
+    height: 91%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto 100px;
+    grid-gap: 5px;
+    grid-auto-flow: row;
 }
+
 #gallery .content-content {
-  grid-column: 1 / -1;
-  background: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  /* Параметры тени */
-  padding: 10px;
-  margin: 10px;
-  display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-auto-rows: 100px;
-  grid-auto-flow: dense;
+    grid-column: 1 / -1;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Параметры тени */
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 100px;
+    grid-auto-flow: dense;
 }
 
 #gallery .content-content-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#gallery .content-content-image > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+#gallery .content-content-image>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-#gallery .content-content-image > img:hover {
-  grid-column: span 2;
-  grid-row: span 2;
-  z-index: 0;
+#gallery .content-content-image>img:hover {
+    grid-column: span 2;
+    grid-row: span 2;
+    z-index: 0;
 }
 
 /*******************************************************
 Gallery block - end
+*******************************************************/
+
+/*******************************************************
+New blog record block - start
+*******************************************************/
+
+#NBR .container {
+    padding-top: 66px;
+    height: 93%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 30px auto 100px;
+    grid-gap: 5px;
+    grid-auto-flow: row;
+}
+
+#NBR .top-text {
+    grid-column: span 12;
+    justify-self: center;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    height: 30px;
+    padding: 6px;
+}
+
+#NBR .content-content {
+    grid-column: 3 / 11;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 10px;
+}
+
+#NBR .content-content-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    font-family: "Alegreya Sans", sans-serif;
+    text-align: justify;
+    height: 95%;
+}
+
+#NBR .content-content-form-SetDate {
+    margin-left: auto;
+}
+
+#NBR .content-content-form-Header input {
+    margin-top: 10px;
+    width: 93%;
+    font-weight: bold;
+}
+
+#NBR .content-content-form-body {
+    margin-top: 10px;
+    height: 100%;
+    max-width: 99.9%;
+}
+
+#NBR .content-content-form-button {
+    margin-top: 10px;
+    margin-left: auto;
+    background-color: olivedrab;
+    font-size: 20px;
+}
+
+/*******************************************************
+New blog record block - end
 *******************************************************/
