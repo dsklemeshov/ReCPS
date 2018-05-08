@@ -436,6 +436,14 @@ New blog record block - start
     font-size: 20px;
 }
 
+#NBR .content-content-form-tags {
+    margin-top: 10px;
+}
+
+#NBR .content-content-form-tagsImg {
+    margin-top: 10px;
+    width: 24px;
+}
 /*******************************************************
 New blog record block - end
 *******************************************************/

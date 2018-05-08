@@ -40,10 +40,18 @@
                     <input id="Dt" name="Dt" type="date" title="Set date" alt="Set date" required>
                 </label>
                 <label class="content-content-form-Header" for="RecordHeader">Header:
-                    <input name="RecordHeader" type="text" title="Set header" alt="Set header" required>
+                    <input name="RecordHeader" type="text" title="Set header" alt="Set header" required placeholder="Add hreader here">
                 </label>
-                <textarea class="content-content-form-body" title="Set body" alt="Set body" required></textarea>
+                <textarea class="content-content-form-body" title="Set body" alt="Set body" required placeholder="Add record here"></textarea>
+
+                <label class="content-content-form-tags" for="tagsList">
+                    Add tag
+                    <input name="tagsList" type="text" title="Set tags" alt="Set tags" required placeholder="Add tags here">
+                </label>
+                <div class="content-content-form-assignedTags"><img class="content-content-form-tagsImg" src="icons/tag_24.png"></div>
+                
                 <input class="content-content-form-button" type="submit" title="send" value="Send" alt="send" >
+
             </form>
         </section>
 
